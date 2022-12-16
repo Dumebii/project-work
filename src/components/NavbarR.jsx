@@ -10,7 +10,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg">
+    <Navbar bg='dark' expand="lg">
       <Container fluid>
         <Navbar.Brand href="#"><div className='navbar'>
           <img src={Vector} alt="" />
@@ -28,13 +28,13 @@ function NavScrollExample() {
             <Nav.Link href="#" className='text-white'>Pricing </Nav.Link>
             <Nav.Link href="#" className='text-white'>Contacts </Nav.Link>
           </Nav>
-          <div className="flex justify-between">
-          <a href="#" className='text-white p-6'>
+          <div className="flex justify-between p-0">
+          <a href="#" className='text-white'>
             <img src={Vector2} alt="" />
           </a>
-          <a href="#" className='text-white p-6'>|</a>
-          <a href="#" className='text-white p-6 no-underline'>Log In </a>
-          <button className='bg-blue-800'>Request a demo</button>
+          <a href="#" className='text-white ml-6'>|</a>
+          <a href="#" className='text-white ml-6 no-underline'>Log In </a>
+          <button className='bg-blue-800 ml-6 p-2 text-white mb-2'>Request a demo</button>
           </div>
         </Navbar.Collapse>
       </Container>

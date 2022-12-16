@@ -6,11 +6,11 @@ import fourth from './images/image4.png'
 
 export default function SecondHero() {
     return(
-        <div className=''>
-            <img src={first} alt="" className='hero-image1' />
-            <img src={second} alt="" className='hero-image2'/>
-            <img src={third} alt="" className='hero-image3'/>
-            <img src={fourth} alt="" className='hero-image4' />
+        <div className='lg:m-0 ml-18 mt-20'>
+            <img src={first} alt="" className='lg:absolute right-[25rem]' />
+            <img src={second} alt="" className='lg:absolute lg:mt-[6rem] mt-5 right-[10rem]'/>
+            <img src={third} alt="" className='lg:absolute lg:mt-[17rem] mt-5 right-[35rem]'/>
+            <img src={fourth} alt="" className='lg:absolute lg:mt-[23rem] mt-5 right-[3rem]' />
         </div>
     )
 }

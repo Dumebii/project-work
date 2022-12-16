@@ -7,10 +7,10 @@ import SecondHero from './components/SecondHero';
 function App() {
   return (
     <div className=''>
-    <div className='lg:pl-40 mt-6'>
+    <div className=''>
       <NavScrollExample />
     </div>
-      <div className='flex flex-row mt-[5rem]'>
+      <div className='lg:flex flex-row mt-[3rem]'>
        <FirstHero />
        <SecondHero />
       </div>
