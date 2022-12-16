@@ -5,13 +5,35 @@
 body {
   background-image: url('./components/images/splash.png');
   background-color: black;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-size: 50rem;
-  /* background-position: left; */
+  background-size: cover;
+  background-position: right;
+  font-family: 'Urbanist', sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  display: flex;
+}
+.pl {
+  padding-left: 5px;
+}
+.hero-image1 {
+  position: absolute;
+  right: 25rem;
+}
+.hero-image2 {
+  position: absolute;
+  right: 10rem;
+  margin-top: 6rem;
+}
+.hero-image3 {
+  position: absolute;
+  margin-top: 17rem;
+  right: 35rem;
+}
+.hero-image4 {
+  position: absolute;
+  margin-top: 23rem;
+  right: 3rem;
+}
+.future {
+  margin-left: 10rem;
 }
