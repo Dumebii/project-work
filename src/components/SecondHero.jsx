@@ -6,7 +6,7 @@ import fourth from './images/image4.png'
 
 export default function SecondHero() {
     return(
-        <div>
+        <div className=''>
             <img src={first} alt="" className='hero-image1' />
             <img src={second} alt="" className='hero-image2'/>
             <img src={third} alt="" className='hero-image3'/>

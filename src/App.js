@@ -7,7 +7,7 @@ import SecondHero from './components/SecondHero';
 function App() {
   return (
     <div className=''>
-    <div className='pl-30 mt-6'>
+    <div className='lg:pl-40 mt-6'>
       <NavScrollExample />
     </div>
       <div className='flex flex-row mt-[5rem]'>

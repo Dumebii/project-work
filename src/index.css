@@ -6,6 +6,8 @@ body {
   background-image: url('./components/images/splash.png');
   background-color: black;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 55em;
   background-position: right;
   font-family: 'Urbanist', sans-serif;
 }

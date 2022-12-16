@@ -33,8 +33,8 @@ function NavScrollExample() {
             <img src={Vector2} alt="" />
           </a>
           <a href="#" className='text-white p-6'>|</a>
-          <a href="#" className='text-white p-6'>Log In </a>
-          <button type='button' className='bg-blue-600'>Request a Demo</button>
+          <a href="#" className='text-white p-6 no-underline'>Log In </a>
+          <button className='bg-blue-800'>Request a demo</button>
           </div>
         </Navbar.Collapse>
       </Container>
