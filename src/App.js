@@ -6,13 +6,13 @@ import SecondHero from './components/SecondHero';
 
 function App() {
   return (
-    <div className=''>
-    <div className=''>
-      <NavScrollExample />
-    </div>
+    <div>
+      <div>
+        <NavScrollExample />
+      </div>
       <div className='lg:flex flex-row mt-[3rem]'>
-       <FirstHero />
-       <SecondHero />
+        <FirstHero />
+        <SecondHero />
       </div>
     </div>
   );

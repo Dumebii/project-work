@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 body {
+<<<<<<< HEAD
+  background-color: black !important;
+  min-height: 100vh;
+  height: 100%;
+=======
   /*background-image: url('./components/images/splash.png');*/
   background-color: green;
   min-height: 100vh;
@@ -11,7 +16,13 @@ body {
   /*background-repeat: no-repeat;*/
   /*background-size: 65em;*/
   /*background-position: right;*/
+>>>>>>> 89bdad58c78c0f9efde82470fb1c3833e8414225
   font-family: 'Urbanist', sans-serif;
+   background-image: url('./components/images/splash.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-size: 65em;
+   background-position: right;
 }
 .navbar {
   display: flex;
