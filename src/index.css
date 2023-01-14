@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 body {
-  background-image: url('./components/images/splash.png');
+  /*background-image: url('./components/images/splash.png');*/
   background-color: black;
   min-height: 100vh;
   height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
   /*background-size: 65em;*/
-  background-position: right;
+  /*background-position: right;*/
   font-family: 'Urbanist', sans-serif;
 }
 .navbar {
