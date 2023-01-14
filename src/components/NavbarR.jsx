@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className='bg-black opacity-40'>
+    <Navbar expand="lg" className='bg-black opacity-60'>
       <Container fluid>
         <Navbar.Brand href="#"><div className='navbar'>
           <img src={Vector} alt="" />
